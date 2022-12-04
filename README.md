@@ -92,6 +92,9 @@
 
 # 类
 
+- `class SomeClass():`：定义类
+- `__init__(self, other_arg)`：构造方法
+- `some_instance = SomeClass()`：创建类的示例
 
 
 # 其他
