@@ -96,6 +96,27 @@
 - `__init__(self, other_arg)`：构造方法
 - `some_instance = SomeClass()`：创建类的示例
 
+# 文件
+
+- `with open(filename) as some_file:`：打开文件
+- `with open(filename, 'w') as some_file:`：以写模式打开文件
+  - `r`：读模式
+  - `w`：写模式
+  - `a`：附加模式
+- `some_file.read()`：读取文件
+- `for line in some_file:`：按行读取文件
+- `lines = some_file.readlines()`：读取所有行，并存储在列表中
+- `some_file.write()`：写内容到文件中
+
+# 异常
+
+- `try-except`
+
+# json
+
+- `import json`：导入json模块
+- `json.dump()`：将json存储到文件中
+- `json.load()`：从文件中读取json
 
 # 其他
 
